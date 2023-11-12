@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/ddl/subject-create.sql
+  - include:
+      file: classpath:/db/ddl/users-create.sql
+  - include:
+      file: classpath:db/ddl/group-create.sql
+  - include:
+      file: classpath:db/ddl/user-role-create.sql
+  - include:
+      file: classpath:db/ddl/user-role-relation.sql
+  - include:
+      file: classpath:db/ddl/user-alter.sql

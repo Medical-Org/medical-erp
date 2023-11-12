@@ -1,0 +1,16 @@
+jwt:
+  secret-key: eyJhbGciOiJIUzI1NiJ9eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY5ODkyNjc4OSwiaWF0IjoxNjk4OTI2Nzg5fQrxdBCl7Ie3McdHN6VWus1rdrRQywMBCw1o7ZzKKiQj0
+  expired: 3600000
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://db.fwpmxufgwsodthndjpko.supabase.co:5432/postgres
+    username: postgres
+    password: $477Bbk1904@
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
